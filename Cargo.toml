@@ -1,0 +1,15 @@
+[package]
+name = "alert"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iron = "0.6.1"
+router = "0.6"
+rodio = "0.17.1"
+eframe = "0.22.0"
+egui_extras = { version = "0.22.0",features = ["svg"] }
+thiserror = "1.0.37"
+env_logger = "0.10"
